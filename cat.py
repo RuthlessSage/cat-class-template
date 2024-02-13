@@ -20,4 +20,3 @@ stella = Cat()
 stella.name = "Stella"
 stella.age = 7
 stella.speak()
-#test LR
