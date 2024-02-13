@@ -1,13 +1,23 @@
-#Revmoe pass and complete the cat class
+#Remove pass and complete the cat class
+
+
+
 class Cat():
-    def__init__(self):
-        self.name = unknown
+    def __init__(self):
+        self.name = "Unknown"
         self.age = 0
-        self.breed = "Persian"
-        def speak(self):
-            print("Meow")
+    def speak(self):
+        return "Meow"
+    
+garfield = Cat()
+garfield.name = "Garfield"
+garfield.age = 50
+garfield.speak()
 
 
-#Create objects here
-#These should NOT be indented inside the class
 
+stella = Cat()
+stella.name = "Stella"
+stella.age = 7
+stella.speak()
+#test LR
